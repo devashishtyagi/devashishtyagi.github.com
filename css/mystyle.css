@@ -1,0 +1,6 @@
+.profile_image{
+	margin:.5em 10px .5em 0;
+	overflow:hidden;
+	border:1px solid #ccc;
+	height:300px;
+}
