@@ -22,7 +22,6 @@
 	</style>
 	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
 	<link rel="stylesheet" href="css/mystyle.css">
 
 	<script src="js/libs/modernizr-2.5.3.min.js"></script>
@@ -38,12 +37,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="/">Devashish Tyagi</a>
+          <a class="brand" href="/demo.html">Zumbl</a>
           <div class="nav-collapse">
             <ul class="nav pull-right">
-              <li class="active"><a href="/">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li class="active"><a href="/demo.html">Home</a></li>
+              <li><a href="#">Settings</a></li>
+              <li><a href="#">Sign Out</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -56,20 +55,23 @@
       <div class="row-fluid">
 	      <div class="span2">
 		      <img src="img/jin_kazama.jpg" class="profile_image shadow"/>
-		      <hr/>
-		      <a href="#">Number of Followers</a>
-		      <hr/>
-		      <a href="#">Number of Chats</a>
+		      <br/>
+		      <a href="#" class="info">Number of Followers</a>
+		      <br/>
+		      <a href="#" class="info">Number of Chats</a>
 		      
 	      </div>
 	      <div class="span10">
 		      <div class="row-fluid">
 			      <div class="span8">
 				      <h2>Profile Section</h2>
-				      <p>This section will contained detailed profile information about the user.
-				      It can optionally include news feed and other material than can used for further
-				      enrichment of the section.
-				      </p>
+				      <form class="well">
+						  <input type="text" class="span12" placeholder="I want to talk about…">
+						  <button type="submit" class="btn">Post it!</button>
+				      </form>
+				      <p>This is news feed 1.</p>
+				      <hr/>
+				      <p>This is news feed 2.</p>
 			      </div>
 			      <div class="span4">
 				      <div class="row-fluid">
@@ -96,9 +98,9 @@
       <hr>
 
       <footer>
-	      <p>&copy; Built with Bootstrap. <br/>
-	      <a href="contact.html">Contact</a> <br/>
-	      <a href="about.html">About</a>
+	      <p>Zumbl &copy; 2012
+	      <a href="/contact.html">Contact</a>
+	      <a href="/about.html">About</a>
 	      </p>
       </footer>
 
